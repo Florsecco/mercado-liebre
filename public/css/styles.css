@@ -7,8 +7,16 @@ body{
 h3{
     font-size: 24px;
 }
+h5{
+    font-size: 16px;
+}
 ul{
-    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
 }
 .precio{
     font-size: 18px;
@@ -22,16 +30,35 @@ h4{
 .alinear{
     text-align: center;
 }
+
 input{
     outline: none;
     box-sizing: border-box;
     font-size: 12px;
 }
 
-.btn{
-    background-color: #ebebeb;
+.btn1{
+    width: 19px;
+    height: 19px;
+    line-height: 19px;
+    background: #ebebeb;
+    border-color:#666;
+    border-width: 0.3px;
+    border-radius: 2px;
+    border-style: solid;
     text-align: center;
-    border-radius: 30px;
+    display: block;
+}
+
+footer{
+    background-color: white;
+
+}
+
+.iconos{
+    color: #1259c3;
+    font-size: 24px;
+    font-weight: bolder;
 }
 
 
