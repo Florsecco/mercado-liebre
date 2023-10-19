@@ -1,0 +1,36 @@
+body{
+    background-color: #EAC926;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    font-size: 24px;
+}
+ul{
+    text-align: left;
+}
+.precio{
+    font-size: 18px;
+}
+.descuento{
+    font-size: 16px;
+}
+h4{
+    font-size: 16px;
+}
+.alinear{
+    text-align: center;
+}
+.boton{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+    background-color: #1259c3;
+    color: white;
+    border-color: #1259c3;
+    border-radius: 3px;
+}
+

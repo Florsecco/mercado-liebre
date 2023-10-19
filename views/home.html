@@ -4,14 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bienvenidos a MercadoLiebre</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.1/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.1/css/all.css" crossorigin="anonymous">
   </head>
   <body>
     <header>
       <div><img src="/img/logo-mercado-liebre.svg" alt="logo" /></div>
       <nav>
         <p>Lugar para poner la barra de búsqueda</p>
-        <p>Comprá en cuotas y sin tarjeta de crédito</p>
-        <ul>
+        <button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <div class="alinear"><i class="fa-solid fa-hand-holding-dollar"></i>
+        <span>Comprá en cuotas y sin tarjeta de crédito</span>
+        </div>
+        <ul type="none">
           <li><a href="/ofertas">Ofertas</a></li>
           <li><a href="/tiendas-oficiales">Tiendas Oficiales</a></li>
           <li><a href="/vender">Vender</a></li>
@@ -19,10 +30,10 @@
         </ul>
       </nav>
       <nav>
-        <ul>
-          <li><a href="/crea-tu-cuenta">Creá tu cuenta</a></li>
-          <li><a href="/ingresa">Ingresá</a></li>
-          <li><a href="/mis-compras">Mis compras</a></li>
+        <ul type="none">
+          <li><a href="/crea-tu-cuenta">Creá tu cuenta </a><i class="fa-regular fa-id-card"></i></li>
+          <li><a href="/ingresa">Ingresá </a><i class="fa-solid fa-right-to-bracket"></i></li>
+          <li><a href="/mis-compras">Mis compras </a><i class="fa-solid fa-basket-shopping"></i></li>
         </ul>
         <section>
           <img
@@ -32,6 +43,10 @@
           />
         </section>
       </nav>
+      <div class="boton" class="burger-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+      
     </header>
     <main>
       <section>
@@ -42,8 +57,8 @@
             alt="cafetera"
             style="width: 100%"
           />
-          <p>$6.770</p>
-          <p>40% OFF</p>
+          <p class="precio">$6.770</p>
+          <p class="descuento">40% OFF</p>
           <h4>Cafetera Moulinex</h4>
         </article>
         <article>
@@ -52,8 +67,8 @@
             alt="macbook"
             style="width: 100%"
           />
-          <p>$230.000</p>
-          <p>20% OFF</p>
+          <p class="precio">$230.000</p>
+          <p class="descuento">20% OFF</p>
           <h4>MacBook Pro 2019</h4>
         </article>
         <article>
@@ -62,8 +77,8 @@
             alt="cel"
             style="width: 100%"
           />
-          <p>$70.500</p>
-          <p>10% OFF</p>
+          <p class="precio">$70.500</p>
+          <p class="descuento">10% OFF</p>
           <h4>Samsung Galaxy S10</h4>
         </article>
         <article>
@@ -72,8 +87,8 @@
             alt="tv"
             style="width: 100%"
           />
-          <p>$23.200</p>
-          <p>5% OFF</p>
+          <p class="precio">$23.200</p>
+          <p class="descuento">5% OFF</p>
           <h4>SmartTv Samsung 43"</h4>
         </article>
       </section>
@@ -85,8 +100,8 @@
             alt="cafetera"
             style="width: 100%"
           />
-          <p>$6.770</p>
-          <p>40% OFF</p>
+          <p class="precio">$6.770</p>
+          <p class="descuento">40% OFF</p>
           <h4>Cafetera Moulinex</h4>
         </article>
         <article>
@@ -95,8 +110,8 @@
             alt="macbook"
             style="width: 100%"
           />
-          <p>$230.000</p>
-          <p>20% OFF</p>
+          <p class="precio">$230.000</p>
+          <p class="descuento">20% OFF</p>
           <h4>MacBook Pro 2019</h4>
         </article>
         <article>
@@ -105,8 +120,8 @@
             alt="cel"
             style="width: 100%"
           />
-          <p>$70.500</p>
-          <p>10% OFF</p>
+          <p class="precio">$70.500</p>
+          <p class="descuento">10% OFF</p>
           <h4>Samsung Galaxy S10</h4>
         </article>
         <article>
@@ -115,8 +130,8 @@
             alt="tv"
             style="width: 100%"
           />
-          <p>$23.200</p>
-          <p>5% OFF</p>
+          <p class="precio">$23.200</p>
+          <p class="descuento">5% OFF</p>
           <h4>SmartTv Samsung 43"</h4>
         </article>
       </section>
