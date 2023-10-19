@@ -9,6 +9,7 @@ h3{
 }
 h5{
     font-size: 16px;
+    line-height: 5px;
 }
 ul{
     margin: 0;
@@ -54,16 +55,22 @@ footer{
     background-color: white;
 
 }
+.fondo{
+    background-color: #ebebeb;
+}
 
 .iconos{
     color: #1259c3;
-    font-size: 24px;
-    font-weight: bolder;
+    font-size: 2em;
+    margin-bottom: 10px;
+ 
 }
 
+.centro{
+    text-align: center;
+}
 
-
-.boton{
+.burger-menu{
     width: 30px;
     height: 30px;
     text-align: center;
@@ -73,5 +80,9 @@ footer{
     color: white;
     border-color: #1259c3;
     border-radius: 3px;
+    margin: 0px 0px 0px 46.5%;
 }
-
+.info{
+    text-align: center;
+    line-height: 20px;
+}
