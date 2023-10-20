@@ -3,22 +3,6 @@ body{
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
 }
-
-h3{
-    font-size: 24px;
-}
-h5{
-    font-size: 16px;
-    line-height: 5px;
-}
-ul{
-    margin: 0;
-    padding: 0;
-}
-ul li a{
-    text-decoration: none;
-    color: black;
-}
 .precio{
     font-size: 18px;
 }
@@ -28,7 +12,28 @@ ul li a{
 h4{
     font-size: 16px;
 }
-.alinear{
+h3{
+    font-size: 24px;
+}
+h5{
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.fondo{
+    background-color: #ebebeb;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.centrar{
     text-align: center;
 }
 
@@ -37,7 +42,6 @@ input{
     box-sizing: border-box;
     font-size: 12px;
 }
-
 .btn1{
     width: 19px;
     height: 19px;
@@ -50,26 +54,6 @@ input{
     text-align: center;
     display: block;
 }
-
-footer{
-    background-color: white;
-
-}
-.fondo{
-    background-color: #ebebeb;
-}
-
-.iconos{
-    color: #1259c3;
-    font-size: 2em;
-    margin-bottom: 10px;
- 
-}
-
-.centro{
-    text-align: center;
-}
-
 .burger-menu{
     width: 30px;
     height: 30px;
@@ -82,7 +66,16 @@ footer{
     border-radius: 3px;
     margin: 0px 0px 0px 46.5%;
 }
-.info{
+footer{
+    background-color: white;
+}
+.iconos{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.sector{
     text-align: center;
-    line-height: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
