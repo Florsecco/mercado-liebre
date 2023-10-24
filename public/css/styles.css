@@ -1,29 +1,41 @@
 body{
-    background-color: #EAC926;
+    background-color: #ebebeb;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
-.precio{
-    font-size: 18px;
+header{
+    background-color:#EAC926;
+    padding: 2%;
 }
-.descuento{
-    font-size: 16px;
+main{
+    background-color: #ebebeb;
+    margin: auto;
+    width: 90vw;
 }
-h4{
-    font-size: 16px;
+footer{
+    background-color: white;
 }
 h3{
     font-size: 24px;
+    color: #666;
+}
+h4{
+    font-weight: normal;
+    display: none;
 }
 h5{
     font-size: 16px;
     margin-bottom: 5px;
     margin-top: 10px;
 }
-.fondo{
-    background-color: #ebebeb;
+img{
+    width: 100%;
 }
-
+article{
+    margin-bottom: 10px;
+    background-color: white;
+}
 ul{
     margin: 0;
     padding: 0;
@@ -32,15 +44,19 @@ ul li a{
     text-decoration: none;
     color: black;
 }
-
-.centrar{
-    text-align: center;
-}
-
 input{
     outline: none;
     box-sizing: border-box;
     font-size: 12px;
+}
+.logo{
+    width: 40%;
+    padding: 4%;
+}
+.barra-nav{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
 }
 .btn1{
     width: 19px;
@@ -54,6 +70,12 @@ input{
     text-align: center;
     display: block;
 }
+.centrar{
+    text-align: center;
+}
+.site-log{
+    display: none;
+}
 .burger-menu{
     width: 30px;
     height: 30px;
@@ -65,15 +87,68 @@ input{
     border-radius: 3px;
     margin: auto;
 }
-footer{
-    background-color: white;
+.descrip{
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    margin: 0px;
+}
+.camioncito{
+    border: 1px solid #39b54a;
+    width: 1.7em;
+    height: 1.7em;
+    border-radius: 30px;
+    color: #39b54a;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.precio{
+    font-size: 18px;
+    margin: 2%;
+}
+.descuento{
+    font-size: 16px;
+    color: #39b54a;
+    margin: 2%;
+}
+.sector{
+    text-align: center;
+    padding: 5px 30px;
 }
 .iconos{
     color: #1259c3;
     font-size: 2em;
     margin-bottom: 10px;
 }
-.sector{
-    text-align: center;
-    padding: 5px 30px;
+
+
+@media(min-width: 361px){
+    h4{
+        display: block;
+    }
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100); 
+    }
+    .site-log{
+        display: block;
+    }
+    .burger-menu{
+        display: none;
+    }
+}
+
+@media(min-width: 769px){
+    h4{
+        display: block;
+    }
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100); 
+    }
+    .site-log{
+        display: block;
+    }
+    .burger-menu{
+        display: none;
+    }
 }
