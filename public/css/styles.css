@@ -12,6 +12,12 @@ header {
   background-color: #eac926;
   padding: 5px;
 }
+main {
+  background-color: #ebebeb;
+  margin: auto;
+  width: 90vw;
+  max-width: 1200px;
+}
 footer {
   background-color: white;
 }
@@ -102,12 +108,6 @@ ul li a {
   margin: auto;
   margin-top: 3%;
   margin-bottom: 3%;
-}
-.main-class {
-  background-color: #ebebeb;
-  margin: auto;
-  width: 90vw;
-  max-width: 1200px;
 }
 .last-seen{
   display: flex;
