@@ -24,8 +24,8 @@ footer {
 h3 {
   font-size: 24px;
   color: #666;
-  margin-top: 3%;
-  margin-bottom: 3%;
+  margin-top: 2%;
+  margin-bottom: 1%;
 }
 h4 {
   font-weight: normal;
@@ -184,6 +184,7 @@ ul li a {
   cursor: pointer;
   border-radius: 5px;
 }
+/* fin de formularios */ 
 /* tablets */
 @media (min-width: 361px) {
   h4 {
