@@ -57,6 +57,43 @@
   <main>
     <section>
       <h3>Basado en tu ultima visita</h3>
+    <!-- /* aqui empieza el formulario */ -->
+      <form action="/crar-producto" method="POST" class="create-form">
+        <div class="control-form">
+          <label>Nombre del producto: </label>
+          <input type="text" name="nombre" class="control">
+        </div>
+        <div class="control-form">
+          <label>Precio: </label>
+          <input type="text" name="precio" placeholder="123.56" class="control">
+        </div>
+        <div class="control-form">
+          <label>Categoria: </label>
+          <select name="categoria" class="control">
+            <option value="hogar">Hogar</option>
+            <option value="electro">Electro</option>
+            <option value="indumentaria">Indumentaria</option>
+          </select>
+        </div>
+        <div class="control-form">
+          <label>Ciudad: </label>
+          <select name="ciudad" class="control">
+            <option value="baires">Buenos Aires</option>
+            <option value="ros">Rosario</option>
+            <option value="mdz">Mendoza</option>
+          </select>
+        </div>
+        <div class="control-form">
+          <label>Descripcion: </label>
+          <textarea name="descripcion" class="control"></textarea>
+        </div>
+        <div class="control-form">
+          <label>Está en oferta: </label>
+          <input type="radio" name="enOferta">
+        </div>
+        <button type="reset" class="button-form">Borrar</button>
+        <button type="submit" class="button-form">Enviar</button>
+      </form>
       <div class="last-seen">
         <article>
           <img src="/img/img-cafetera-moulinex.jpg" alt="cafetera" />

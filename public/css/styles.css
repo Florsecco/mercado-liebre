@@ -43,7 +43,6 @@ img {
 article {
   margin-bottom: 10px;
   background-color: white;
-  max-width: 288px;
 }
 ul {
   list-style: none;
@@ -160,6 +159,31 @@ ul li a {
   font-size: 2em;
   margin-bottom: 10px;
 }
+/*formularios*/
+.create-form{
+  padding: 20px 15px;
+}
+.control-form{
+  margin-bottom: 15px;
+}
+.control-form label{
+  margin-bottom: 5px;
+  font-style: italic;
+  display: block;
+}
+.control {
+  width: 100%;
+  padding: 8px;
+}
+.button-form{
+  background-color: #39b54a;
+  border: none;
+  font-size: 18px;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
 /* tablets */
 @media (min-width: 361px) {
   h4 {
@@ -235,6 +259,9 @@ ul li a {
 }
 /* desktops-big */
 @media (min-width: 1200px) {
+  article{
+    max-width: 288px;
+  }
   .main-header-top-bar,
   .main-nav-bar {
     max-width: 1200px;
