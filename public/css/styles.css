@@ -166,23 +166,37 @@ ul li a {
 .control-form{
   margin-bottom: 15px;
 }
-.control-form label{
+.etiqueta{
   margin-bottom: 5px;
-  font-style: italic;
+  font-weight: bold;
   display: block;
 }
+.box{
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+
 .control {
   width: 100%;
   padding: 8px;
+  border: none;
+  border-radius: 5px;
 }
 .button-form{
-  background-color: #39b54a;
+  background-color:  #1259c3;
   border: none;
-  font-size: 18px;
+  font-size: 14px;
   color: white;
-  padding: 5px 10px;
+  padding: 5px;
   cursor: pointer;
   border-radius: 5px;
+}
+button[type="button"]{
+  width: 100%;
+}
+input:invalid{
+  background-color: rgba(218, 170, 170, 0.815);
 }
 /* fin de formularios */ 
 /* tablets */
