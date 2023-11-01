@@ -192,9 +192,27 @@ ul li a {
   cursor: pointer;
   border-radius: 5px;
 }
-button[type="button"]{
+.button-reg{
   width: 100%;
+  background-color:  #1259c3;
+  border: none;
+  font-size: 14px;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
 }
+input:hover, input:focus{
+  outline: #EAC926 2px solid;
+}
+span{
+  color: red;
+  margin-top: 5px;
+  display: block;
+}
+/* input:focus-visible{
+  outline: none;
+} */
 input:invalid{
   background-color: rgba(218, 170, 170, 0.815);
 }
