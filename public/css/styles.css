@@ -210,6 +210,9 @@ ul li a {
   cursor: pointer;
   border-radius: 5px;
 }
+.button-reg:hover{
+  background-color: #0022AA;
+}
 input:invalid{
   background-color: rgba(218, 170, 170, 0.815);
 }
@@ -232,7 +235,7 @@ span{
   header{
     height: 84px;
   }
-  article {
+  article:hover {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     margin: 10px 0 10px 0;
     width: 39vw;
