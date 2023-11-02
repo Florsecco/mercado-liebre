@@ -11,6 +11,11 @@ body {
 header {
   background-color: #eac926;
   padding: 5px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height:131px ;
+  z-index: 100;
 }
 main {
   background-color: #ebebeb;
@@ -107,6 +112,9 @@ ul li a {
   margin: auto;
   margin-top: 3%;
   margin-bottom: 3%;
+}
+.banner-princ{
+  margin-top: 131px;
 }
 .last-seen {
   display: flex;
@@ -223,6 +231,9 @@ input:invalid{
     display: block;
     font-size: 12px;
   }
+  header{
+    height: 84px;
+  }
   article {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     margin: 10px 0 10px 0;
@@ -252,6 +263,9 @@ input:invalid{
   .burger-menu {
     display: none;
   }
+  .banner-princ{
+    margin-top: 84px;
+  }
   .last-seen {
     flex-direction: row;
   }
@@ -261,6 +275,9 @@ input:invalid{
   .descuento {
     font-size: 12px;
     padding-left: 15px;
+  }
+  .logo{
+    max-width: 142px;
   }
 }
 /* desktops */
@@ -272,7 +289,16 @@ input:invalid{
     text-align: center;
     margin-top: 5px;
   }
-  .main-header-mobile {
+  header{
+    height: 113px;
+  }
+  .logo{
+    max-width: 253px;
+  }
+  .banner-princ{
+    margin-top: 113px;
+  }
+  .main-header-mobile { 
     width: 65%;
   }
   .copy {
@@ -295,6 +321,12 @@ input:invalid{
   article{
     max-width: 288px;
   }
+  header{
+    height: 168px;
+  }
+  .logo{
+    max-width: 413px;
+  }
   .main-header-top-bar,
   .main-nav-bar {
     max-width: 1200px;
@@ -316,5 +348,8 @@ input:invalid{
   }
   .main-header-mobile {
     width: 70%;
+  }
+  .banner-princ{
+    margin-top: 168px;
   }
 }
