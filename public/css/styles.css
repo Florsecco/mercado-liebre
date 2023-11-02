@@ -195,7 +195,8 @@ ul li a {
 button[type="button"]{
   width: 100%;
 }
-input:invalid{
+input:invalid {
+  color: red;
   background-color: rgba(218, 170, 170, 0.815);
 }
 /* fin de formularios */ 
