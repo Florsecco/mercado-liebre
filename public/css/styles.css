@@ -113,7 +113,7 @@ ul li a {
   margin-top: 3%;
   margin-bottom: 3%;
 }
-.banner-princ{
+.home-princ{
   margin-top: 131px;
 }
 .last-seen {
@@ -202,9 +202,25 @@ ul li a {
 }
 .button-reg{
   width: 100%;
+  background-color:  #1259c3;
+  border: none;
+  font-size: 14px;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 input:invalid{
   background-color: rgba(218, 170, 170, 0.815);
+}
+input:hover, input:focus{
+  outline: #eac926 2px solid;
+}
+
+span{
+  color: red;
+  margin-top: 5px;
+  display: block;
 }
 /* fin de formularios */ 
 /* tablets */
@@ -245,7 +261,7 @@ input:invalid{
   .burger-menu {
     display: none;
   }
-  .banner-princ{
+  .home-princ{
     margin-top: 84px;
   }
   .last-seen {
@@ -277,7 +293,7 @@ input:invalid{
   .logo{
     max-width: 253px;
   }
-  .banner-princ{
+  .home-princ{
     margin-top: 113px;
   }
   .main-header-mobile { 
@@ -303,12 +319,6 @@ input:invalid{
   article{
     max-width: 288px;
   }
-  header{
-    height: 168px;
-  }
-  .logo{
-    max-width: 413px;
-  }
   .main-header-top-bar,
   .main-nav-bar {
     max-width: 1200px;
@@ -322,16 +332,13 @@ input:invalid{
     margin-right: 10px;
   }
   .main-nav-bar a {
-    font-size: 16px;
+    font-size: 14px;
   }
   .copy {
-    font-size: 16px;
+    font-size: 14px;
     width: 30%;
   }
   .main-header-mobile {
     width: 70%;
-  }
-  .banner-princ{
-    margin-top: 168px;
   }
 }
