@@ -22,9 +22,11 @@ main {
   margin: auto;
   width: 90vw;
   max-width: 1200px;
+  margin-bottom: 15px;
 }
 footer {
   background-color: white;
+
 }
 h3 {
   font-size: 24px;
@@ -74,7 +76,6 @@ ul li a {
 }
 .nav-bar {
   width: 50%;
-  max-width: 400px;
   padding: 5px;
 }
 .search-input {
@@ -146,6 +147,11 @@ ul li a {
   position: absolute;
   right: 20px;
   top: -15px;
+  transform: none;
+  transition: transform 450ms;
+}
+.camioncito:hover{
+  transform: rotateZ(-90deg);
 }
 .price {
   display: flex;
@@ -166,11 +172,19 @@ ul li a {
 .sector {
   text-align: center;
   padding: 5px 30px;
+  margin-bottom: 15px;
+}
+.clase-footer{
+  max-width: 1200px;
+  margin: auto;
 }
 .iconos {
   color: #1259c3;
   font-size: 2em;
   margin-bottom: 10px;
+}
+.iconos:hover{
+  color:  #0022AA;
 }
 /*formularios*/
 .create-form{
@@ -324,6 +338,13 @@ span{
   }
   .price {
     text-align: center;
+  }
+  .sector{
+    display: flex;
+    margin: auto;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    gap: 15px;
   }
 }
 /* desktops-big */
