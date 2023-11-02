@@ -47,7 +47,11 @@ img {
 }
 article {
   margin-bottom: 10px;
-  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+article:hover .descrip{
+  display: block;
 }
 ul {
   list-style: none;
@@ -125,8 +129,9 @@ ul li a {
 .descrip {
   border-top: 1px solid #ebebeb;
   padding: 5px;
-  display: block;
+  display: none;
   position: relative;
+  background-color: white;
 }
 .camioncito {
   border: 1px solid #39b54a;
@@ -235,10 +240,12 @@ span{
   header{
     height: 84px;
   }
-  article:hover {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  article {
     margin: 10px 0 10px 0;
     width: 39vw;
+  }
+  article:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
   .main-header-top-bar,
   .main-nav-bar {
