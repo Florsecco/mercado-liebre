@@ -243,6 +243,8 @@ span{
   article {
     margin: 10px 0 10px 0;
     width: 39vw;
+    box-shadow: none;
+    transition: box-shadow 450ms;
   }
   article:hover{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
