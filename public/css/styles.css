@@ -271,7 +271,7 @@ span{
     align-items: center;
   }
   .main-header-mobile {
-    width: 70%;
+    width: 65%;
   }
   .main-nav-bar ul {
     display: flex;
@@ -375,9 +375,5 @@ span{
   }
   .copy {
     font-size: 14px;
-    width: 30%;
-  }
-  .main-header-mobile {
-    width: 70%;
   }
 }
