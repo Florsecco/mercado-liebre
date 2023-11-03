@@ -52,7 +52,7 @@ article {
   display: flex;
   flex-direction: column;
 }
-article:hover .descrip{
+article:hover h4{
   display: block;
 }
 ul {
@@ -73,9 +73,10 @@ ul li a {
 .logo {
   width: 50%;
   padding: 5px;
+  max-width: 173px;
 }
 .nav-bar {
-  width: 50%;
+  width: 65%;
   padding: 5px;
 }
 .search-input {
@@ -115,8 +116,8 @@ ul li a {
   color: white;
   border-radius: 3px;
   margin: auto;
-  margin-top: 3%;
-  margin-bottom: 3%;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 .home-princ{
   margin-top: 131px;
@@ -130,7 +131,6 @@ ul li a {
 .descrip {
   border-top: 1px solid #ebebeb;
   padding: 5px;
-  display: none;
   position: relative;
   background-color: white;
 }
@@ -147,7 +147,6 @@ ul li a {
   position: absolute;
   right: 20px;
   top: -15px;
-  transform: none;
   transition: transform 450ms;
 }
 .camioncito:hover{
@@ -161,11 +160,12 @@ ul li a {
   justify-content: flex-start;
 }
 .precio {
-  font-size: 18px;
+  font-size: 14px;
   width: 30%;
 }
 .descuento {
-  font-size: 16px;
+  font-size: 12px;
+  font-weight: bold;
   color: #39b54a;
   width: 70%;
 }
@@ -248,9 +248,8 @@ span{
 /* fin de formularios */ 
 
 /* tablets */
-@media (min-width: 361px) {
+@media (min-width: 576px) {
   h4 {
-    display: block;
     font-size: 12px;
   }
   header{
@@ -258,7 +257,7 @@ span{
   }
   article {
     margin: 10px 0 10px 0;
-    width: 39vw;
+    width: 45%;
     box-shadow: none;
     transition: box-shadow 450ms;
   }
@@ -272,7 +271,7 @@ span{
     align-items: center;
   }
   .main-header-mobile {
-    width: 60%;
+    width: 70%;
   }
   .main-nav-bar ul {
     display: flex;
@@ -283,8 +282,7 @@ span{
   }
   .copy {
     text-align: right;
-    font-size: 10px;
-    width: 40%;
+    font-size: 12px;
   }
   .burger-menu {
     display: none;
@@ -303,20 +301,24 @@ span{
     padding-left: 15px;
   }
   .logo{
-    max-width: 142px;
+    max-width: 165px;
   }
 }
 /* desktops */
-@media (min-width: 769px) {
+@media (min-width: 992px) {
   article {
-    width: 19vw;
+    width: 23%;
   }
   h4 {
     text-align: center;
     margin-top: 5px;
+    font-size: 16px;
   }
   header{
     height: 113px;
+  }
+  .main-header-mobile{
+    width: 75%;
   }
   .logo{
     max-width: 253px;
@@ -324,13 +326,9 @@ span{
   .home-princ{
     margin-top: 113px;
   }
-  .main-header-mobile { 
-    width: 65%;
-  }
   .copy {
     font-size: 12px;
     margin-right: 5px;
-    width: 35%;
   }
   .main-nav-bar li {
     margin-right: 6px;
@@ -340,6 +338,12 @@ span{
   }
   .price {
     text-align: center;
+  }
+  .precio {
+    font-size: 16px;
+  }
+  .descuento {
+    font-size: 14px;
   }
   .sector{
     display: flex;
