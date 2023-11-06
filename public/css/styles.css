@@ -11,10 +11,9 @@ body {
 header {
   background-color: #eac926;
   padding: 5px;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
-  height:131px ;
   z-index: 100;
 }
 main {
@@ -118,9 +117,6 @@ ul li a {
   margin: auto;
   margin-top: 10px;
   margin-bottom: 5px;
-}
-.home-princ{
-  margin-top: 131px;
 }
 .last-seen {
   display: flex;
@@ -252,9 +248,6 @@ span{
   h4 {
     font-size: 12px;
   }
-  header{
-    height: 84px;
-  }
   article {
     margin: 10px 0 10px 0;
     width: 45%;
@@ -287,9 +280,6 @@ span{
   .burger-menu {
     display: none;
   }
-  .home-princ{
-    margin-top: 84px;
-  }
   .last-seen {
     flex-direction: row;
   }
@@ -314,17 +304,11 @@ span{
     margin-top: 5px;
     font-size: 16px;
   }
-  header{
-    height: 113px;
-  }
   .main-header-mobile{
     width: 75%;
   }
   .logo{
     max-width: 253px;
-  }
-  .home-princ{
-    margin-top: 113px;
   }
   .copy {
     font-size: 12px;
