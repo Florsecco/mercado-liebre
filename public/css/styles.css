@@ -41,7 +41,8 @@ h4 {
 h5 {
   font-size: 16px;
   margin-bottom: 5px;
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 img {
   width: 100%;
@@ -174,12 +175,13 @@ ul li a {
   max-width: 1200px;
   margin: auto;
 }
-.iconos {
+.clase-footer i {
   color: #1259c3;
   font-size: 2em;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
-.iconos:hover{
+.clase-footer i:hover{
   color:  #0022AA;
 }
 /*formularios*/
