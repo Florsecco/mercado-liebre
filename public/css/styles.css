@@ -64,17 +64,21 @@ ul li a {
   display: inline-block;
   padding: 3px 0;
 }
+/* header */ 
+/* clase que contiene el logo y la barra de busqueda */
 .main-header-mobile {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 5px;
 }
+/* clase que contiene el logo */
 .logo {
   width: 50%;
   padding: 5px;
   max-width: 173px;
 }
+/* clase que contiene la barra de busqueda */ 
 .nav-bar {
   width: 65%;
   padding: 5px;
@@ -98,14 +102,17 @@ ul li a {
   padding: 4px;
   font-size: 70%;
 }
+/* texto del header */ 
 .copy {
   text-align: center;
   font-weight: 450;
   padding: 2px;
 }
+/* clase que contiene la barra de bavegacion */
 .main-nav-bar {
   display: none;
 }
+/* clase que contiene el menu hamburguesa */
 .burger-menu {
   width: 30px;
   height: 30px;
@@ -119,12 +126,15 @@ ul li a {
   margin-top: 10px;
   margin-bottom: 5px;
 }
+/* fin del header */ 
+/* clase que contiene los productos */
 .last-seen {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+/* clase de la descripcion de cada producto */
 .descrip {
   border-top: 1px solid #ebebeb;
   padding: 5px;
@@ -166,11 +176,7 @@ ul li a {
   color: #39b54a;
   width: 70%;
 }
-.sector {
-  text-align: center;
-  padding: 5px 30px;
-  margin-bottom: 15px;
-}
+/* descripcion del footer */
 .clase-footer{
   max-width: 1200px;
   margin: auto;
@@ -183,6 +189,11 @@ ul li a {
 }
 .clase-footer i:hover{
   color:  #0022AA;
+}
+.sector {
+  text-align: center;
+  padding: 5px 30px;
+  margin-bottom: 15px;
 }
 /*formularios*/
 .create-form{
@@ -201,7 +212,6 @@ ul li a {
   padding: 10px;
   gap: 10px;
 }
-
 .control {
   width: 100%;
   padding: 8px;
@@ -268,6 +278,9 @@ span{
   .main-header-mobile {
     width: 65%;
   }
+  .logo{
+    max-width: 165px;
+  }
   .main-nav-bar ul {
     display: flex;
     justify-content: space-between;
@@ -291,9 +304,6 @@ span{
   .descuento {
     font-size: 12px;
     padding-left: 15px;
-  }
-  .logo{
-    max-width: 165px;
   }
 }
 /* desktops */
