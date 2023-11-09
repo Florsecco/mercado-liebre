@@ -198,6 +198,8 @@ ul li a {
 /*formularios*/
 .create-form{
   padding: 20px 15px;
+  max-width: 500px;
+  margin: auto;
 }
 .control-form{
   margin-bottom: 15px;
