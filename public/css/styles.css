@@ -96,6 +96,7 @@ ul li a {
   padding: 1px 10px 1px 5px;
   border-right: #ebebeb solid 1px;
 }
+
 .icon {
   cursor: pointer;
   color: #666666;
@@ -214,6 +215,9 @@ ul li a {
   padding: 10px;
   gap: 10px;
 }
+.box input:hover, .box input:focus,.search-input input:focus, .search-input input:hover{
+  outline: none;
+} 
 .control {
   width: 100%;
   padding: 8px;
