@@ -25,7 +25,14 @@ main {
 }
 footer {
   background-color: white;
-
+}
+h2{
+  font-size: 24px;
+  color: #666;
+  max-width: 500px;
+  text-align: left;
+  margin: auto;
+  padding: 15px 15px 5px 15px;
 }
 h3 {
   font-size: 24px;
@@ -185,7 +192,7 @@ ul li a {
 .clase-footer i {
   color: #1259c3;
   font-size: 2em;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   margin-top: 5px;
 }
 .clase-footer i:hover{
@@ -198,7 +205,7 @@ ul li a {
 }
 /*formularios*/
 .create-form{
-  padding: 20px 15px;
+  padding: 5px 15px;
   max-width: 500px;
   margin: auto;
 }
