@@ -40,3 +40,10 @@ app.get('/ingresa',(req,res)=>{
 app.get('/mis-compras',(req,res)=>{
     res.sendFile(path.resolve(__dirname, './views/mis-compras.html'))
 })
+
+
+
+
+
+
+// aqui estoy probando otro cambios///
